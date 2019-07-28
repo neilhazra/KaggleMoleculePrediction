@@ -102,15 +102,26 @@ class molecule_prediction_data_wrapper:
                 columb_matrices[molecule] = matrix
             with open(data_path_prefix + "coulomb_mat.pkl", 'wb') as f:
                 pk.dump(columb_matrices, f, pk.HIGHEST_PROTOCOL)
-    def get_input_vector(self, molecule):        
-        df = self.molecule_structures[molecule].drop(columns=['atom'])   
-        
-        input_array = np.pad(df.values, [(0, 30 - df.shape[0]), (0, 0)], 'constant', constant_values=(0.0, 0.0))
-        return np.ravel(input_array)
+    def get_input_vector(self, molecule):
+        df = self.molecule_structures[molecule]
+        if molecule in self.molecule_mulliken_set:
+            df = df.drop(columns=['atom', 'x', 'y', 'z', 'mulliken'])
+        else:
+            df = df.drop(columns=['atom', 'x', 'y', 'z'])
+        atom_array = np.pad(df.values, [(0, 30 - df.shape[0]), (0, 0)], 'constant', constant_values=(0.0, 0.0))
+        padded_cm = pad(self.columb_matrices[molecule], (30, 30), (0, 0))
+        e_value, e_vectors = np.linalg.eig(padded_cm)
+        e_value = np.expand_dims(e_value, axis=1)
+        input_mat = np.concatenate((atom_array, e_vectors, e_value), axis=1)
+        return np.ravel(input_mat)
     def get_output_vector(self,molecule):
         df = self.molecule_prop[molecule]
         return np.ravel(df.drop(columns=['molecule_name', 'potential_energy']).values)
-
+def pad(array, reference_shape, offsets):
+    result = np.zeros(reference_shape)
+    insertHere = [slice(offsets[dim], offsets[dim] + array.shape[dim]) for dim in range(array.ndim)]
+    result[insertHere] = array
+    return result
 class BatchGenerator:
     def __init__(self, wrap,batch_size=8):
         self.wrap = wrap
