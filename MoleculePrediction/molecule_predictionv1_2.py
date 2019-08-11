@@ -80,7 +80,7 @@ class molecule_prediction_data_wrapper:
         #created batchgen
     def genColumbMatrix(self):
         columb_matrices = {}
-        if len(columb_matrices) < 130_000:
+        if len(columb_matrices) < 130000:
             for n, molecule in enumerate(self.molecule_set):
                 if n % 1000 == 0:
                     print(n)
@@ -114,7 +114,7 @@ class molecule_prediction_data_wrapper:
         return np.ravel(input_mat)
     def get_output_vector(self,molecule):
         df = self.molecule_prop[molecule]
-        return np.ravel(df.drop(columns=['molecule_name', 'potential_energy']).values)
+        return np.ravel(df.drop(columns=['molecule_name', 'X','Y','Z']).values)
 def pad(array, reference_shape, offsets):
     result = np.zeros(reference_shape)
     insertHere = [slice(offsets[dim], offsets[dim] + array.shape[dim]) for dim in range(array.ndim)]
@@ -135,18 +135,3 @@ class BatchGenerator:
                 output_vector = self.wrap.get_output_vector(molecule)
                 self.buffer.append((input_vector, output_vector))
                 yield input_vector, output_vector
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
