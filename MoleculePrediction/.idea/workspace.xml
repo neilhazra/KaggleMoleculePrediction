@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e646808a-232f-4a2c-afc6-fac6c802f6c5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/molecule_predictionv1_1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PredictingDipoleMoments.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/PredictingDipoleMoments.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestDipoleMomentPredictor.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/TestDipoleMomentPredictor.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/molecule_predictionv1_0.py" beforeDir="false" afterPath="$PROJECT_DIR$/molecule_predictionv1_0.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.ipynb_checkpoints/PredictingDipoleMoments-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.ipynb_checkpoints/TestDipoleMomentPredictor-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReadAtomProperties_3_0.py" beforeDir="false" afterPath="$PROJECT_DIR$/ReadAtomProperties_3_0.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/TestDipoleMomentPredictor.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../models/checkpoint" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,61 +27,88 @@
     <session id="-373550894">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="9" />
+          <entry key="project.closed" value="10" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.4" value="3" />
-          <entry key="project.open.time.5" value="2" />
+          <entry key="project.open.time.5" value="4" />
           <entry key="project.open.time.6" value="4" />
-          <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="14" />
+          <entry key="project.open.time.7" value="2" />
+          <entry key="project.opened" value="18" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="ipynb" value="13" />
-          <entry key="py" value="22" />
+          <entry key="ipynb" value="27" />
+          <entry key="py" value="49" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="IPNB" value="13" />
-          <entry key="Python" value="22" />
+          <entry key="IPNB" value="27" />
+          <entry key="Python" value="49" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Python Console" value="107" />
           <entry key="dummy" value="1" />
-          <entry key="py" value="12628" />
+          <entry key="py" value="22364" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Python" value="12735" />
+          <entry key="Python" value="22471" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/PredictingDipoleMoments.ipynb">
-          <provider selected="true" editor-type-id="ipnb-editor">
-            <state>
-              <selected id="0" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/molecule_predictionv3_1.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="254">
+              <caret line="117" column="38" selection-start-line="117" selection-start-column="38" selection-end-line="117" selection-end-column="38" />
+              <folding>
+                <element signature="e#0#23#0" expanded="true" />
+                <element signature="e#4196#5549#0" />
+                <element signature="e#5590#6785#0" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/molecule_predictionv1_1.py">
+        <entry file="file://$PROJECT_DIR$/GraphNeuralNetwork_3_1.ipynb">
+          <provider selected="true" editor-type-id="ipnb-editor">
+            <state>
+              <selected id="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test.ipynb">
+          <provider selected="true" editor-type-id="ipnb-editor">
+            <state>
+              <selected id="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ReadAtomProperties_3_0.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="81">
-              <caret line="10" column="39" lean-forward="true" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
+            <state relative-caret-position="297">
+              <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -91,10 +118,15 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Jupyter Notebook" />
         <option value="Python Script" />
+        <option value="Jupyter Notebook" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>distance</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -107,20 +139,35 @@
         <option value="$PROJECT_DIR$/Molecule3dRepPreprocessing.py" />
         <option value="$PROJECT_DIR$/PredictingDipoleMoments.py" />
         <option value="$PROJECT_DIR$/models/TestDipoleMomentPredictor.ipynb" />
-        <option value="$PROJECT_DIR$/ReadAtomProperties.py" />
         <option value="$PROJECT_DIR$/ReadMoleculeProperties.py" />
         <option value="$PROJECT_DIR$/molecule_predictionv1.0.py" />
         <option value="$PROJECT_DIR$/TestDipoleMomentPredictorv2.ipynb" />
         <option value="$PROJECT_DIR$/TestDipoleMomentPredictor.ipynb" />
         <option value="$PROJECT_DIR$/molecule_predictionv1_0.py" />
         <option value="$PROJECT_DIR$/molecule_predictionv1_1.py" />
+        <option value="$PROJECT_DIR$/testmpred2.0.ipynb" />
+        <option value="$PROJECT_DIR$/MoleculeGeometryPreprocessing.ipynb" />
+        <option value="$PROJECT_DIR$/GraphNeuralNetworkTest.py" />
+        <option value="$PROJECT_DIR$/GraphNeuralNetworkTest.ipynb" />
         <option value="$PROJECT_DIR$/PredictingDipoleMoments.ipynb" />
+        <option value="$PROJECT_DIR$/molecule_predictionv2_0.py" />
+        <option value="$PROJECT_DIR$/GraphNeuralNetwork.py" />
+        <option value="$PROJECT_DIR$/Preliminary/TestTrainValidationSplit.py" />
+        <option value="$PROJECT_DIR$/TestTrainValidationSplit.py" />
+        <option value="$PROJECT_DIR$/molecule_predictionv3_0.py" />
+        <option value="$PROJECT_DIR$/GraphNeuralNetwork.ipynb" />
+        <option value="$PROJECT_DIR$/ReadAtomProperties.py" />
+        <option value="$PROJECT_DIR$/Preliminary/molecule_predictionv3_0.py" />
+        <option value="$PROJECT_DIR$/GraphNeuralNetwork_3_1.ipynb" />
+        <option value="$PROJECT_DIR$/test.ipynb" />
+        <option value="$PROJECT_DIR$/molecule_predictionv3_1.py" />
+        <option value="$PROJECT_DIR$/ReadAtomProperties_3_0.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="950" />
-    <option name="width" value="979" />
+    <option name="x" value="-9" />
+    <option name="width" value="978" />
     <option name="height" value="1050" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -129,7 +176,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -137,19 +183,11 @@
               <item name="MoleculePrediction" type="b2602c69:ProjectViewProjectNode" />
               <item name="MoleculePrediction" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="MoleculePrediction" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="MoleculePrediction" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.7 &gt;" type="70bed36:NamedLibraryElementNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -157,10 +195,11 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\Kaggle\Molecule\MoleculePrediction" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Kaggle\Molecule\MoleculePrediction\Preliminary" />
       <recent name="E:\Kaggle\Molecule\MoleculePrediction" />
     </key>
   </component>
@@ -176,7 +215,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.molecule_predictionv1_0">
+  <component name="RunManager" selected="Python.ReadAtomProperties_3_0">
     <configuration name="MoleculePrediction" type="JupiterNotebook" factoryName="Jupyter Notebook">
       <module name="MoleculePrediction" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -194,48 +233,6 @@
       <option name="ipnbPort" value="8888" />
       <method v="2" />
     </configuration>
-    <configuration name="Molecule3dRepPreprocessing" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="MoleculePrediction" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Molecule3dRepPreprocessing.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="PredictingDipoleMoments" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="MoleculePrediction" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PredictingDipoleMoments.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="ReadAtomProperties" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="MoleculePrediction" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -248,7 +245,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ReadAtomProperties.py" />
+      <option name="SCRIPT_NAME" value="E:\Kaggle\Molecule\MoleculePrediction\Preliminary\ReadAtomProperties.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -257,7 +254,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ReadMoleculeProperties" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="ReadAtomProperties_3_0" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="MoleculePrediction" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -269,7 +266,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ReadMoleculeProperties.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ReadAtomProperties_3_0.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -299,21 +296,63 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="molecule_predictionv2_0" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="MoleculePrediction" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/molecule_predictionv2_0.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="molecule_predictionv3_0" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="MoleculePrediction" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="E:\Kaggle\Molecule\MoleculePrediction\Preliminary\molecule_predictionv3_0.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Jupyter Notebook.MoleculePrediction" />
-      <item itemvalue="Python.Molecule3dRepPreprocessing" />
       <item itemvalue="Python.ReadAtomProperties" />
-      <item itemvalue="Python.ReadMoleculeProperties" />
-      <item itemvalue="Python.PredictingDipoleMoments" />
       <item itemvalue="Python.molecule_predictionv1_0" />
+      <item itemvalue="Python.molecule_predictionv2_0" />
+      <item itemvalue="Python.molecule_predictionv3_0" />
+      <item itemvalue="Python.ReadAtomProperties_3_0" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.ReadAtomProperties_3_0" />
+        <item itemvalue="Python.molecule_predictionv3_0" />
+        <item itemvalue="Python.molecule_predictionv2_0" />
         <item itemvalue="Python.molecule_predictionv1_0" />
         <item itemvalue="Python.ReadAtomProperties" />
-        <item itemvalue="Python.ReadMoleculeProperties" />
-        <item itemvalue="Python.PredictingDipoleMoments" />
-        <item itemvalue="Python.Molecule3dRepPreprocessing" />
       </list>
     </recent_temporary>
   </component>
@@ -341,19 +380,20 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26173165" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49892932" visible="true" weight="0.18374091" />
+      <window_info id="Structure" order="1" sideWeight="0.5010707" side_tool="true" weight="0.18374091" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4990086" weight="0.19134079" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4990086" visible="true" weight="0.34776536" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32960895" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3058659" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32960895" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32960895" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5009914" side_tool="true" weight="0.33798882" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.27513966" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -388,49 +428,101 @@
     <entry file="file://$PROJECT_DIR$/PeriodicTableSupport.py" />
     <entry file="file://$PROJECT_DIR$/Molecule3dRepPreprocessing.py" />
     <entry file="file://$PROJECT_DIR$/PredictingDipoleMoments.py" />
-    <entry file="file://$PROJECT_DIR$/ReadMoleculeProperties.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="9" column="24" lean-forward="true" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/TestDipoleMomentPredictorv2.ipynb" />
-    <entry file="file://$PROJECT_DIR$/ReadAtomProperties.py">
+    <entry file="file://$PROJECT_DIR$/TestDipoleMomentPredictor.ipynb" />
+    <entry file="file://$PROJECT_DIR$/molecule_predictionv1_0.py" />
+    <entry file="file://$PROJECT_DIR$/molecule_predictionv1_2.py" />
+    <entry file="file://$PROJECT_DIR$/molecule_predictionv1_1.py" />
+    <entry file="file://$PROJECT_DIR$/testmpred2.0.ipynb" />
+    <entry file="file://$PROJECT_DIR$/GraphNeuralNetworkTest.py" />
+    <entry file="file://$PROJECT_DIR$/GraphNeuralNetworkTest.ipynb" />
+    <entry file="file://$PROJECT_DIR$/PredictingDipoleMoments.ipynb" />
+    <entry file="file://$PROJECT_DIR$/molecule_predictionv2_0.py" />
+    <entry file="file://$PROJECT_DIR$/MoleculeGeometryPreprocessing.ipynb" />
+    <entry file="file://$PROJECT_DIR$/Preliminary/GraphNeuralNetwork.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="24" column="34" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
+        <state relative-caret-position="297">
+          <caret line="11" column="8" lean-forward="true" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TestDipoleMomentPredictor.ipynb">
+    <entry file="file://$PROJECT_DIR$/Preliminary/ReadMoleculeProperties.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="10" column="31" lean-forward="true" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestTrainValidationSplit.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Preliminary/GraphNeuralNetwork.ipynb">
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
-          <selected id="5" />
+          <selected id="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/molecule_predictionv1_0.py">
+    <entry file="file://$PROJECT_DIR$/Preliminary/ReadAtomProperties.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="30" column="45" lean-forward="true" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="47" />
+        <state relative-caret-position="189">
+          <caret line="24" column="34" lean-forward="true" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ReadMoleculeProperties_3_0.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Preliminary/molecule_predictionv3_0.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="10" column="27" lean-forward="true" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="27" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/molecule_predictionv1_1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="10" column="39" lean-forward="true" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
+    <entry file="file://$PROJECT_DIR$/test.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PredictingDipoleMoments.ipynb">
+    <entry file="file://$PROJECT_DIR$/molecule_predictionv3_1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="117" column="38" selection-start-line="117" selection-start-column="38" selection-end-line="117" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+            <element signature="e#4196#5549#0" />
+            <element signature="e#5590#6785#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GraphNeuralNetwork_3_1.ipynb">
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
-          <selected id="0" />
+          <selected id="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ReadAtomProperties_3_0.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

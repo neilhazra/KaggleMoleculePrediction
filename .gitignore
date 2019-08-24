@@ -1,3 +1,4 @@
 *.xyz
 *.csv
 *.pkl
+*.ckpt.*
