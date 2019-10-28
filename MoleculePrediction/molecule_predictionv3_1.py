@@ -27,7 +27,7 @@ class molecule_data_wrapper:
         except:
             print("error atom")
             print("Running ReadAtomProperties this will take a while")
-            call(["python", "ReadAtomProperties_3_0.py"])
+            call(["python", "ReadAtomProperties_3_1.py"])
             with open(data_path_prefix + "molecule_composition_data.pkl", 'rb') as f:
                 self.molecule_structures = pk.load(f)
         try:
